@@ -1,8 +1,8 @@
 //-----------------------------------------------------------
 // Lawn.java
 // Hafizi bin Ismail
-// hbinisma / 1596229
-// Programming Assignment 1 / lab1
+// hbinisma
+// pa1
 // Gets length and width of lot and house, then calculate the time it takes to mown the grass based on the mown rate
 //-----------------------------------------------------------
 
