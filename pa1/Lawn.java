@@ -55,10 +55,9 @@ public class Lawn {
 	//	str = ( n==1 ? "singular" : "plural" );
 	//	System.out.println(str)
 		
-		System.out.println("The mowing time is " + h + " hour" + 
-(((h==1)||(h==0))?" ":"s ") + m + " minute" + (m==1?" and ":"s and ") + s 
-+ "second" + 
-(s==1?".":"s."));
+		System.out.println("The mowing time is " + h + " hour" + (((h==1)||(h==0))?" ":"s ") + 
+				   m + " minute" + (m==1?" and ":"s and ") + 
+				   s + "second" + (s==1?".":"s."));
 	}
 
 }
