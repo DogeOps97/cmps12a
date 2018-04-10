@@ -3,7 +3,7 @@
 // Hafizi bin Ismail
 // hbinisma / 1596229
 // Programming Assignment 1 / lab1
-// a (very) short description of the program
+// Gets length and width of lot and house, then calculate the time it takes to mown the grass based on the mown rate
 //-----------------------------------------------------------
 
 import java.util.Scanner;
@@ -56,8 +56,8 @@ public class Lawn {
 	//	System.out.println(str)
 		
 		System.out.println("The mowing time is " + h + " hour" + (((h==1)||(h==0))?" ":"s ") + 
-				   m + " minute" + (m==1?" and ":"s and ") + 
-				   s + "second" + (s==1?".":"s."));
+				   m + " minute" + ( ((m==1)||(m==0) )?" ":"s ") + 
+				   s + " second" + ( ((s==1)||(s==0) )?".":"s."));
 	}
 
 }
