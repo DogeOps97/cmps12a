@@ -59,7 +59,7 @@ class GCD{
 		{
 			temp = b;
 			b = a % b;
-			a = b;
+			a = temp;
 		}
 		
 		return a;
