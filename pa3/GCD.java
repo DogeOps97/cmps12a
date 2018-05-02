@@ -16,7 +16,7 @@ class GCD{
 		System.out.print("Enter another positive integer : ");
 		b = get_int();
 		
-		answer = GCD_algorithm();
+		answer = GCD_algorithm(a, b);
 		
 		System.out.println(a + " " + b + " " + answer);
 		
@@ -57,7 +57,7 @@ class GCD{
 		
 		while (b != 0)
 		{
-			temp b;
+			temp = b;
 			b = a % b;
 			a = b;
 		}
