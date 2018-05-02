@@ -48,11 +48,11 @@ class GCD{
 	static int GCD_algorithm(int a, int b)
 	{
 		int temp;
-		if (a < b)
+		if (b > a)
 		{
 			temp = a;
 			a = b;
-			b = a;
+			b = temp;
 		}
 		
 		while (b != 0)
