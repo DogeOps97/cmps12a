@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 class GCD{
-	public static main void ( String[] args)
+	public static void main( String[] args)
 	{
 		Scanner sc = new Scanner(System.in);
 
