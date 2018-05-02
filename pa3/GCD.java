@@ -6,9 +6,19 @@ class GCD{
 		Scanner sc = new Scanner(System.in);
 
 		// initialize variable
-		int a, b;
-
-           System.out.print("Enter two positive integers: ");
+		int a = 0, b = 0, answer;
+		
+		// get input
+		
+		System.out.print("Enter a positive integer : ");
+		a = get_int();
+		
+		System.out.print("Enter another positive integer : ");
+		b = get_int();
+		
+		answer = GCD_algorithm();
+		
+		System.out.println(a + " " + b + " " + answer);
 		
 	}
 	
@@ -40,14 +50,19 @@ class GCD{
 		int temp;
 		if (a < b)
 		{
-			
 			temp = a;
 			a = b;
 			b = a;
 		}
 		
+		while (b != 0)
+		{
+			temp b;
+			b = a % b;
+			a = b;
+		}
 		
-		
+		return a;
 	}
 	
 	
