@@ -10,15 +10,15 @@ class GCD{
 		
 		// get input
 		
-		System.out.print("Enter a positive integer : ");
+		System.out.print("Enter a positive integer: ");
 		a = get_int();
 		
-		System.out.print("Enter another positive integer : ");
+		System.out.print("Enter another positive integer: ");
 		b = get_int();
 		
-		answer = GCD_algorithm(a, b);
+		// answer = 
 		
-		System.out.println(a + " " + b + " " + answer);
+		System.out.println("The GCD of " + a + " and " + b + " is " + GCD_algorithm(a, b));
 		
 	}
 	
@@ -39,7 +39,7 @@ class GCD{
 			}	
 			else sc.next();
 			
-			System.out.print("Please enter a positive integer : ");
+			System.out.print("Please enter a positive integer: ");
 			
 		}
 		
